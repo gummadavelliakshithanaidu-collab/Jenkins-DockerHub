@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                'Checking out code from Github...'
+                echo 'Checking out code from Github...'
             }
         }
 
